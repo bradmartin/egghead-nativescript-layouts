@@ -1,39 +1,29 @@
-import {Observable} from 'data/observable';
+import { Observable } from 'data/observable';
+import { topmost } from 'ui/frame';
 
 export class HelloWorldModel extends Observable {
 
-    private _counter: number;
-    private _message: string;
-
     constructor() {
         super();
-
-        // Initialize default values.
-        this._counter = 42;
-        this.updateMessage();
     }
 
-    get message(): string {
-        return this._message;
+    public goToStack() {
+        topmost().navigate('./pages/stack');
     }
-    
-    set message(value: string) {
-        if (this._message !== value) {
-            this._message = value;
-            this.notifyPropertyChange('message', value)
-        }
+    public goToAbsolute() {
+        topmost().navigate('./pages/absolute');
+    }
+    public goToFlex() {
+        topmost().navigate('./pages/flex');
+    }
+    public goToWrap() {
+        topmost().navigate('./pages/wrap');
+    }
+    public goToDock() {
+        topmost().navigate('./pages/dock');
+    }
+    public goToGrid() {
+        topmost().navigate('./pages/grid');
     }
 
-    public onTap() {
-        this._counter--;
-        this.updateMessage();
-    }
-
-    private updateMessage() {
-        if (this._counter <= 0) {
-            this.message = 'Hoorraaay! You unlocked the NativeScript clicker achievement!';
-        } else {
-            this.message = `${this._counter} taps left`;
-        }
-    }
 }
