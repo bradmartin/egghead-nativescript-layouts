@@ -1,0 +1,9 @@
+<Page 
+    xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
+    <GridLayout columns="80, *, auto" rows="auto, *">
+        <Button col="0" />
+        <Button col="1" />
+        <Button col="2" /> // by default column and row are set to 0 
+        <Button row="1" colSpan="3" />
+    </GridLayout>
+</Page>

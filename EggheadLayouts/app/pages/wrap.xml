@@ -1,0 +1,8 @@
+<Page>
+    <WrapLayout>
+        <Label text="This is Label 1" />
+        <Label text="This is Label 2" />
+        <Label text="This is Label 3" />
+        <Label text="This is Label 4" />
+    </WrapLayout>
+</Page>

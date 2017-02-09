@@ -1,4 +1,8 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
-    <Label text="STACK THIS" textWrap="true" />
-    
+<Page xmlns="http://www.nativescript.org/tns.xsd">
+    <StackLayout orientation="horizontal">
+        <Button text="Hello" tap="" />
+        <Button text="Goodbye" tap="" />
+        <Button text="Yolo" tap="" />
+        
+    </StackLayout>
 </Page>
