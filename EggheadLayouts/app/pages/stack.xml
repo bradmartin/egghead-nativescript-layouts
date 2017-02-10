@@ -1,5 +1,4 @@
-<Page 
-    xmlns="http://www.nativescript.org/tns.xsd">
+<Page xmlns="http://www.nativescript.org/tns.xsd">
     <StackLayout>
             <StackLayout backgroundColor="#ff4081">
                 <Button text="hello" />

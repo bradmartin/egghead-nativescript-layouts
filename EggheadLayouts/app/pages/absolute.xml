@@ -1,5 +1,3 @@
 <Page>
-  <AbsoluteLayout>
-    <Label text="This is Label 1" left="30" top="70" />
-  </AbsoluteLayout>
+    
 </Page>
