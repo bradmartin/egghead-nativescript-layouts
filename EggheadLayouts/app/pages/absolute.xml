@@ -1,3 +1,7 @@
 <Page>
-    
+    <AbsoluteLayout> 
+        <Button text="Hello" left="10" top="100" />
+        <Button text="Goodbye" left="140" top="250" />
+        <Label text="egghead" left="60" top="400" />
+    </AbsoluteLayout>
 </Page>
