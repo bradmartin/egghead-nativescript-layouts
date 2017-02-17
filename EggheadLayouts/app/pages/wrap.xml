@@ -1,8 +1,8 @@
 <Page>
-    <WrapLayout>
-        <Label text="This is Label 1" />
-        <Label text="This is Label 2" />
-        <Label text="This is Label 3" />
-        <Label text="This is Label 4" />
+    <WrapLayout width="280" orientation="vertical">
+        <Label text="Hello" width="70" height="400" backgroundColor="red" />
+        <Label text="Goodbye" width="70" height="400"  backgroundColor="yellow" />
+        <Label text="egghead" width="70" height="400"  backgroundColor="#3489db" />
+        <Label text="go home" width="70" height="400"  backgroundColor="pink" />
     </WrapLayout>
 </Page>
